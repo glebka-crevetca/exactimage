@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const videoSources = {
     projectOne: "https://disk.yandex.ru/i/2P7flI2xeF_dow",
-    projectTwo: "img/Medvezhi-Obyatiya-Ekonomik.mp4",
+    projectTwo: "/img/Medvezhi-Obyatiya-Ekonomik.mp4",
   };
 
   function openVideoPopup(videoSrc) {
@@ -64,3 +64,4 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Видео завершено");
   });
 });
+
