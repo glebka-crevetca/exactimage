@@ -594,11 +594,11 @@ h4 {
   padding: 0 0 1.73em 3.8em;
 }
 .projectOne {
-  background-image: url('exactimage/img/ProjectOne.png');
+  background-image: url('https://glebka-crevetca.github.io/exactimage/img/ProjectOne.png');
   background-size: cover;
 }
 .projectTwo {
-  background-image: url('exactimage/img/ProjectTwo.png');
+  background-image: url('https://glebka-crevetca.github.io/exactimage/img/ProjectTwo.png');
   background-size: cover;
 }
 .projectsList p {
@@ -808,4 +808,5 @@ html.menu-open body {
         row-gap: 4px;
     }
 }
+
 
