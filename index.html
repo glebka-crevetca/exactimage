@@ -348,12 +348,12 @@
               <hr />
               <div class="punktThree">
                 <img src="img/punktArrow.svg" alt="" />
-                <p>Познакомитесь со всеми этапами продакшена</p>
+                <p>познакомитесь со всеми этапами продакшена</p>
               </div>
               <hr />
               <div class="punktFour">
                 <img src="img/punktArrow.svg" alt="" />
-                <p>Воплотите в жизнь свой собственный проект</p>
+                <p>воплотите в жизнь свой собственный проект</p>
               </div>
             </div>
           </div>
@@ -386,6 +386,39 @@
         </div>
       </section>
 
+      <div class="video-popup">
+        <div class="video-popup__overlay"></div>
+        <div class="video-popup__container">
+          <button class="video-popup__close">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 6L6 18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M6 6L18 18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+          <div class="video-popup__content">
+            <video controls preload="none">
+              Ваш браузер не поддерживает видео тег.
+            </video>
+          </div>
+        </div>
+      </div>
+
       <footer>
         <div class="clickable">
           <div class="navigation">
@@ -415,7 +448,6 @@
       </footer>
     </main>
     <script src="scripts/script.js"></script>
+    <script src="scripts/popup.js"></script>
   </body>
 </html>
-
-
