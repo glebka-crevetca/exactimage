@@ -176,6 +176,7 @@ header {
 }
 .headerVid {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   z-index: 1;
@@ -183,7 +184,7 @@ header {
   overflow: hidden;
 }
 .headerVid video {
-  width: calc(100vw - 20px);
+  width: 100%;
 }
 .vidDark {
   position: absolute;
@@ -277,7 +278,7 @@ h1 {
   margin-top: 5.55em;
 }
 .aboutOne {
-  margin-left: 5.55em;
+  margin-left: 3em;
 }
 h2 {
   color: #222226;
@@ -450,7 +451,9 @@ h3, .h3 {
 }
 
 .service {
-  margin: 24em 3.8em 0 3.8em;
+  margin-top: 24em;
+  display: grid;
+  justify-content: center;
 }
 .service>div {
   width: calc(100vw - 100px);
@@ -473,6 +476,7 @@ h3, .h3 {
 }
 .servicePunkts img {
   height: 12px;
+  margin-top: 4px;
 }
 .serviseHead {
   font-family: 'Inter', Sans-Serif;
@@ -591,11 +595,11 @@ h4 {
 }
 .projectOne {
   background-image: url('/img/ProjectOne.png');
-  object-fit: cover;
+  background-size: cover;
 }
 .projectTwo {
   background-image: url('/img/ProjectTwo.png');
-  object-fit: cover;
+  background-size: cover;
 }
 .projectsList p {
   color: #FEFEFE;
