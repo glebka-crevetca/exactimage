@@ -35,7 +35,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 'Inter', Sans-Serif;
+  font: "Inter", Sans-Serif;
 }
 input,
 button,
@@ -74,23 +74,28 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+#aboutUs,
+#proj,
+#service {
+  scroll-margin-top: 80vh;
+}
 main {
   width: calc(100vw - 10px);
   overflow: hidden;
 }
 @media (max-width: 440px) {
-main {
-  width: 100vw;
+  main {
+    width: 100vw;
   }
 }
 menu {
   display: flex;
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Inter", Sans-Serif;
   margin: 1.04em 1.74em 0 1.74em;
   justify-content: space-between;
-  color: #AFAFB3;
+  color: #afafb3;
 }
 .logotype {
   display: flex;
@@ -114,7 +119,7 @@ menu {
   height: 1.67em;
 }
 .menuList a {
-  color: #AFAFB3;
+  color: #afafb3;
   font-size: 0.97em;
 }
 .menuListMr {
@@ -130,12 +135,13 @@ menu {
   width: 1.67em;
 }
 .tel {
-  color: #AFAFB3;
+  color: #afafb3;
   font-size: 0.97em;
   height: 0.97em;
   margin-right: 0.69em;
 }
-.telMobile, .burger {
+.telMobile,
+.burger {
   display: none;
 }
 @media (max-width: 440px) {
@@ -147,10 +153,13 @@ menu {
     font-size: 5em;
     margin-left: 0.45em;
   }
-  .menuPunkts, .tel, .mail {
+  .menuPunkts,
+  .tel,
+  .mail {
     display: none;
   }
-  .telMobile, .burger {
+  .telMobile,
+  .burger {
     display: block;
   }
   .menuContacts img {
@@ -171,7 +180,7 @@ menu {
 
 header {
   position: relative;
-  height: calc((100vw - 20px)/2.06);
+  height: calc((100vw - 20px) / 2.06);
   margin: 1.04em 0.69em 0 0.69em;
   overflow: hidden;
   border-radius: 15px;
@@ -198,23 +207,28 @@ header {
   z-index: 2;
   width: 100%;
   height: 100%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0.425) 81.9%, rgba(0, 0, 0, 0.51) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.68) 0%,
+    rgba(0, 0, 0, 0.425) 81.9%,
+    rgba(0, 0, 0, 0.51) 100%
+  );
 }
 .headerContent {
   position: relative;
   z-index: 3;
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Inter", Sans-Serif;
   margin: auto;
 }
-.headerContent>p {
-  color: #E1E1E5;
+.headerContent > p {
+  color: #e1e1e5;
   font-size: 1.67em;
   text-align: center;
 }
 h1 {
   text-align: center;
   font-size: 3.89em;
-  color: #F2F2F7;
+  color: #f2f2f7;
   width: 16em;
   margin-top: 1.04em;
   font-weight: 600;
@@ -233,7 +247,7 @@ h1 {
 .buttonProject a {
   display: flex;
   font-size: 0.97em;
-  color: #FEFEFE;
+  color: #fefefe;
   gap: 0.69em;
   margin: auto;
   font-weight: 500;
@@ -244,14 +258,14 @@ h1 {
 @media (max-width: 440px) {
   header {
     height: 136.6em;
-    margin: 4.16em 4.16em 0 4.16em;;
+    margin: 4.16em 4.16em 0 4.16em;
   }
   .headerVid video {
     width: 100%;
     height: 136.6em;
     object-fit: cover;
   }
-  .headerContent>p {
+  .headerContent > p {
     font-size: 5.5em;
     width: 12.1em;
     margin: auto;
@@ -264,7 +278,7 @@ h1 {
     width: 65.27em;
     height: 12.2em;
     margin-top: 8.3em;
-    background-color: #F2F2F7;
+    background-color: #f2f2f7;
   }
   .arrow {
     display: none;
@@ -272,7 +286,7 @@ h1 {
   .arrowMobile {
     display: block;
   }
-  .buttonProject a{
+  .buttonProject a {
     font-size: 3.8em;
     gap: 0.8em;
     color: #222226;
@@ -287,21 +301,21 @@ h1 {
 }
 h2 {
   color: #222226;
-  font-family: 'Roboro', Sans-Serif;
+  font-family: "Roboro", Sans-Serif;
   font-weight: 600;
   width: 22em;
   font-size: 3.33em;
 }
 .aboutOne hr {
   width: calc(100vw - 100px);
-  background-color: #45454D;
+  background-color: #45454d;
   height: 1px;
   margin-top: 3.47em;
 }
 .aboutText {
   margin-top: 3.47em;
-  color: #45454D;
-  font-family: 'Inter', Sans-Serif;
+  color: #45454d;
+  font-family: "Inter", Sans-Serif;
   font-weight: 400;
   display: flex;
   justify-content: space-between;
@@ -315,10 +329,11 @@ h2 {
   margin-right: 6.94em;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   color: #222226;
   font-size: 3.33em;
-  font-family: 'Roboto', Sans-Serif;
+  font-family: "Roboto", Sans-Serif;
   margin: auto;
   margin-top: 4em;
   font-weight: 600;
@@ -336,7 +351,7 @@ h3, .h3 {
 }
 @media (max-width: 440px) {
   .about {
-    margin-top: 27.7em; 
+    margin-top: 27.7em;
   }
   .aboutOne {
     width: calc(100vw - 5.5em);
@@ -367,7 +382,9 @@ h3, .h3 {
   margin: 5.55em 3.47em 0 3.47em;
   justify-content: space-between;
 }
-.econom, .cycle, .fastwork {
+.econom,
+.cycle,
+.fastwork {
   width: 30.5em;
   height: 26.39em;
   display: grid;
@@ -375,10 +392,11 @@ h3, .h3 {
   align-content: space-between;
 }
 .advantages p {
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Inter", Sans-Serif;
   text-align: center;
 }
-.ugolUp, .ugolDown {
+.ugolUp,
+.ugolDown {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -392,34 +410,38 @@ h3, .h3 {
   height: 12px;
 }
 .leftUp {
-  border-top: 1px solid #45454D;
-  border-left: 1px solid #45454D; 
+  border-top: 1px solid #45454d;
+  border-left: 1px solid #45454d;
 }
 .leftDown {
-  border-bottom: 1px solid #45454D;
-  border-left: 1px solid #45454D;
+  border-bottom: 1px solid #45454d;
+  border-left: 1px solid #45454d;
 }
 .rightUp {
-  border-top: 1px solid #45454D;
-  border-right: 1px solid #45454D;
+  border-top: 1px solid #45454d;
+  border-right: 1px solid #45454d;
 }
 .rightDown {
-  border-bottom: 1px solid #45454D;
-  border-right: 1px solid #45454D;
+  border-bottom: 1px solid #45454d;
+  border-right: 1px solid #45454d;
 }
-.contentPart  {
+.contentPart {
   display: grid;
   justify-items: center;
 }
-.economHeader, .cycleHeader, .fastworkHeader {
+.economHeader,
+.cycleHeader,
+.fastworkHeader {
   font-size: 1.67em;
   color: #222226;
   font-weight: 600;
   margin-top: 1.39em;
 }
-.economText, .cycleText, .fastworkText {
+.economText,
+.cycleText,
+.fastworkText {
   font-size: 1.25em;
-  color: #AFAFB3;
+  color: #afafb3;
   font-weight: 400;
   margin-top: 15px;
 }
@@ -441,15 +463,21 @@ h3, .h3 {
     margin: 17.7em 2.7em 0 2.7em;
     row-gap: 10px;
   }
-  .econom, .cycle, .fastwork {
+  .econom,
+  .cycle,
+  .fastwork {
     height: unset;
     width: unset;
   }
-  .economHeader, .cycleHeader, .fastworkHeader {
+  .economHeader,
+  .cycleHeader,
+  .fastworkHeader {
     font-size: 5.5em;
     margin-top: 1em;
   }
-  .economText, .cycleText, .fastworkText {
+  .economText,
+  .cycleText,
+  .fastworkText {
     font-size: 4.4em;
     margin-top: 1em;
   }
@@ -460,23 +488,27 @@ h3, .h3 {
   display: grid;
   justify-content: center;
 }
-.service>div {
+.service > div {
   width: calc(100vw - 100px);
   border-radius: 10px;
-  background-color: #38383A;
+  background-color: #38383a;
   margin-top: 0.67em;
   display: flex;
 }
 .service img {
-  width: calc((100vw - 100px)/2);
+  width: calc((100vw - 100px) / 2);
 }
-.devInfo, .productionInfo, .postProdInfo, .lessonsInfo {
+.devInfo,
+.productionInfo,
+.postProdInfo,
+.lessonsInfo {
   height: 23em;
-  width: calc((100vw - 100px)/2);
+  width: calc((100vw - 100px) / 2);
   display: grid;
   align-content: space-between;
 }
-.production, .lessons {
+.production,
+.lessons {
   flex-direction: row-reverse;
 }
 .servicePunkts img {
@@ -484,13 +516,13 @@ h3, .h3 {
   margin-top: 4px;
 }
 .serviseHead {
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Inter", Sans-Serif;
   display: flex;
   margin: 1.73em 1.73em 0 1.73em;
   justify-content: space-between;
 }
 .head {
-  color: #E1E1E5;
+  color: #e1e1e5;
   font-size: 1.67em;
   font-weight: 600;
 }
@@ -504,7 +536,10 @@ h3, .h3 {
   display: grid;
   row-gap: 1.04em;
 }
-.punktOne, .punktTwo, .punktThree, .punktFour {
+.punktOne,
+.punktTwo,
+.punktThree,
+.punktFour {
   display: flex;
   gap: 1.04em;
 }
@@ -512,8 +547,8 @@ h3, .h3 {
   width: 20px;
 }
 .servicePunkts p {
-  color: #AFAFB3;
-  font-family: 'Inter', Sans-Serif;
+  color: #afafb3;
+  font-family: "Inter", Sans-Serif;
   font-weight: 400;
   font-size: 1.25em;
   width: 30em;
@@ -530,7 +565,7 @@ h3, .h3 {
     display: grid;
     row-gap: 10px;
   }
-  .service>div {
+  .service > div {
     display: block;
     width: 100%;
     margin-top: unset;
@@ -541,12 +576,16 @@ h3, .h3 {
   .servicePunkts img {
     display: none;
   }
-  .devInfo, .productionInfo, .postProdInfo, .lessonsInfo {
+  .devInfo,
+  .productionInfo,
+  .postProdInfo,
+  .lessonsInfo {
     width: 100%;
     padding: 20px;
     height: unset;
   }
-  .production, .lessons {
+  .production,
+  .lessons {
     flex-direction: unset;
   }
   .serviseHead {
@@ -576,7 +615,7 @@ h3, .h3 {
   margin: 9.72em 2.43em 0 2.43em;
 }
 h4 {
-  font-family: 'Roboto', Sans-Serif;
+  font-family: "Roboto", Sans-Serif;
   font-size: 3.33em;
   color: #222226;
   font-weight: 600;
@@ -599,16 +638,16 @@ h4 {
   padding: 0 0 1.73em 3.8em;
 }
 .projectOne {
-  background-image: url('https://glebka-crevetca.github.io/exactimage/img/ProjectOne.png');
+  background-image: url("https://glebka-crevetca.github.io/exactimage/img/ProjectOne.png");
   background-size: cover;
 }
 .projectTwo {
-  background-image: url('https://glebka-crevetca.github.io/exactimage/img/ProjectTwo.png');
+  background-image: url("https://glebka-crevetca.github.io/exactimage/img/ProjectTwo.png");
   background-size: cover;
 }
 .projectsList p {
-  color: #FEFEFE;
-  font-family: 'Inter', Sans-Serif;
+  color: #fefefe;
+  font-family: "Inter", Sans-Serif;
   font-weight: 600;
   font-size: 1.67em;
 }
@@ -617,7 +656,7 @@ h4 {
   display: grid;
 }
 h5 {
-  font-family: 'Roboto', Sans-Serif;
+  font-family: "Roboto", Sans-Serif;
   font-size: 3.33em;
   font-weight: 600;
   color: #222226;
@@ -626,7 +665,7 @@ h5 {
 }
 .bottomContacts a {
   color: #222226;
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Inter", Sans-Serif;
   font-size: 2.36em;
   font-weight: 500;
   margin-bottom: 1em;
@@ -694,19 +733,19 @@ footer {
   row-gap: 1.05em;
 }
 .clickable a {
-  color: #AFAFB3;
+  color: #afafb3;
   font-size: 1.67em;
   font-weight: 600;
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Inter", Sans-Serif;
 }
 .fignya {
   display: flex;
 }
 .fignya p {
-  font-family: 'Inter', Sans-Serif;
+  font-family: "Inter", Sans-Serif;
   font-weight: 400;
   font-size: 1.25em;
-  color: #AFAFB3;
+  color: #afafb3;
 }
 .inn {
   margin-left: 11em;
@@ -740,79 +779,75 @@ footer {
   }
 }
 
-
 body.menu-open {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 100%;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 html.menu-open {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 html.menu-open body {
-    overflow: hidden;
-    height: 100%;
+  overflow: hidden;
+  height: 100%;
 }
 .burger {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 2.2em;
-    height: 2.2em;
-    border: 2px solid #222226db;
-    border-radius: 5px;
-    background: transparent;
-    cursor: pointer;
-    padding: 0;
-    position: relative;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 2.2em;
+  height: 2.2em;
+  border: 2px solid #222226db;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
 }
 
 .burger-line {
-    width: 1.3em;
-    height: 2.3px;
-    background: #AFAFB3;
-    transition: all 0.3s ease;
-    transform-origin: center;
+  width: 1.3em;
+  height: 2.3px;
+  background: #afafb3;
+  transition: all 0.3s ease;
+  transform-origin: center;
 }
 
 .burger.active .burger-line:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(5px, 5px);
 }
 
 .burger.active .burger-line:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .burger.active .burger-line:nth-child(3) {
-    transform: rotate(-45deg) translate(4px, -4px);
+  transform: rotate(-45deg) translate(4px, -4px);
 }
 
 .mobile-menu {
-    position: fixed;
-    top: 55px;
-    right: -100%;
-    width: 100%;
-    height: 100%;
-    background: #38383A;
-    z-index: 1000;
-    transition: right 0.3s ease;
-    overflow-y: auto;
-    padding: 30px 0 0 15px;
+  position: fixed;
+  top: 55px;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background: #38383a;
+  z-index: 1000;
+  transition: right 0.3s ease;
+  overflow-y: auto;
+  padding: 30px 0 0 15px;
 }
 
 .mobile-menu.active {
-    right: 0;
+  right: 0;
 }
 @media (max-width: 440px) {
-    .burger {
-        display: flex;
-        row-gap: 4px;
-    }
+  .burger {
+    display: flex;
+    row-gap: 4px;
+  }
 }
-
-
-
