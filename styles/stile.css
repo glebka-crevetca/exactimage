@@ -122,6 +122,9 @@ menu {
   color: #afafb3;
   font-size: 0.97em;
 }
+.menuList a:hover {
+  color: #7D7D7D;
+}
 .menuListMr {
   margin: 0 1.39em 0 1.39em;
 }
