@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeButton = document.querySelector(".video-popup__close");
 
   const videoSources = {
-    projectOne: "https://disk.yandex.ru/i/2P7flI2xeF_dow",
+    projectOne: "https://glebka-crevetca.github.io/exactimage/img/ShowReel.mp4",
     projectTwo: "https://glebka-crevetca.github.io/exactimage/img/Medvezhi-Obyatiya-Ekonomik.mp4",
   };
 
@@ -64,5 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Видео завершено");
   });
 });
+
 
 
