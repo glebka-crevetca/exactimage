@@ -130,8 +130,10 @@ menu {
 }
 .menuContacts {
   display: flex;
-  gap: 0.694em;
+  gap: 0.7em;
   align-items: center;
+  width: 9.7em;
+  justify-content: end;
 }
 .menuContacts img {
   height: 1.67em;
@@ -498,8 +500,10 @@ h3,
   margin-top: 0.67em;
   display: flex;
 }
-.service img {
+.service video {
   width: calc((100vw - 100px) / 2);
+  border-radius: 10px;
+  background-size: cover;
 }
 .devInfo,
 .productionInfo,
@@ -573,7 +577,7 @@ h3,
     width: 100%;
     margin-top: unset;
   }
-  .service img {
+  .service video {
     width: 100%;
   }
   .servicePunkts img {
