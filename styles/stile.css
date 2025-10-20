@@ -269,7 +269,7 @@ h1 {
 @media (max-width: 440px) {
   header {
     height: 136.6em;
-    margin: 4.16em 4.16em 0 4.16em;
+    margin: calc(4.16em + 47px) 4.16em 0 4.16em;
   }
   .headerVid video {
     width: 100%;
@@ -960,6 +960,7 @@ html.menu-open body {
 body.video-popup-open {
   overflow: hidden;
 }
+
 
 
 
