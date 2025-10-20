@@ -176,7 +176,13 @@ menu {
     height: 2.25em;
   }
   menu {
-    margin: 4.16em 4.16em 0 4.16em;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+    margin: unset;
+    padding: 0.16em 4.16em 0 4.16em;
+    height: 58px;
   }
   .menuContacts {
     gap: 2.77em;
@@ -954,5 +960,6 @@ html.menu-open body {
 body.video-popup-open {
   overflow: hidden;
 }
+
 
 
