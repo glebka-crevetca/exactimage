@@ -856,6 +856,7 @@ html.menu-open body {
   .burger {
     display: flex;
     row-gap: 4px;
+    padding: 0.5em;
   }
 }
 
@@ -953,3 +954,4 @@ html.menu-open body {
 body.video-popup-open {
   overflow: hidden;
 }
+
