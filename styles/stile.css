@@ -640,29 +640,14 @@ h4 {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 6.9em;
 }
-.projectsList div {
-  width: 46.18em;
-  height: 25.69em;
-  border-radius: 10px;
-  border: 1px solid #222226;
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 1.73em 3.8em;
+.misteria, .kion, .rossOne, .nefis, .start {
+  width: 29em;
 }
-.projectOne {
-  background-image: url("https://glebka-crevetca.github.io/exactimage/img/ProjectOne.png");
-  background-size: cover;
-}
-.projectTwo {
-  background-image: url("https://glebka-crevetca.github.io/exactimage/img/ProjectTwo.png");
-  background-size: cover;
-}
-.projectsList p {
-  color: #fefefe;
-  font-family: "Inter", Sans-Serif;
-  font-weight: 600;
-  font-size: 1.67em;
+.renTV {
+  width: 15.3em;
 }
 .bottomContacts {
   margin-top: 6.94em;
@@ -689,31 +674,18 @@ h5 {
   }
   h4 {
     font-size: 8.8em;
-    text-align: left;
     width: 100%;
   }
   .projectsList {
     margin-top: 30px;
-    display: grid;
     justify-content: center;
-    row-gap: 20px;
+    row-gap: 50px;
   }
-  .projectsList div {
-    height: 370px;
-    width: 94em;
-    padding: unset;
+  .misteria, .kion, .rossOne, .nefis, .start {
+    width: 60em;
   }
-  .projectsList p {
-    font-size: 5.5em;
-  }
-  .projectOne p {
-    margin: 0 0 50px 15px;
-  }
-  .projectTwo {
-    justify-content: center;
-  }
-  .projectTwo p {
-    margin-bottom: 50px;
+  .renTV {
+    width: 30em;
   }
   .bottomContacts {
     margin-top: 28em;
@@ -960,7 +932,3 @@ html.menu-open body {
 body.video-popup-open {
   overflow: hidden;
 }
-
-
-
-
