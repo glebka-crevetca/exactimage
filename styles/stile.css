@@ -268,7 +268,7 @@ h1 {
 }
 @media (max-width: 440px) {
   header {
-    height: 136.6em;
+    height: calc(100vh - 65px);
     margin: calc(4.16em + 47px) 4.16em 0 4.16em;
   }
   .headerVid video {
@@ -837,3 +837,4 @@ html.menu-open body {
     padding: 0.5em;
   }
 }
+
