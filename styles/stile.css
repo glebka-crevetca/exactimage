@@ -74,6 +74,18 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+a[href^="#"]:focus {
+  outline: none;
+}
+html {
+  scroll-behavior: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 #aboutUs,
@@ -123,7 +135,7 @@ menu {
   font-size: 0.97em;
 }
 .menuList a:hover {
-  color: #7D7D7D;
+  color: #7d7d7d;
 }
 .menuListMr {
   margin: 0 1.39em 0 1.39em;
@@ -643,7 +655,11 @@ h4 {
   flex-wrap: wrap;
   row-gap: 6.9em;
 }
-.misteria, .kion, .rossOne, .nefis, .start {
+.misteria,
+.kion,
+.rossOne,
+.nefis,
+.start {
   width: 29em;
 }
 .renTV {
@@ -681,7 +697,11 @@ h5 {
     justify-content: center;
     row-gap: 50px;
   }
-  .misteria, .kion, .rossOne, .nefis, .start {
+  .misteria,
+  .kion,
+  .rossOne,
+  .nefis,
+  .start {
     width: 60em;
   }
   .renTV {
@@ -837,5 +857,3 @@ html.menu-open body {
     padding: 0.5em;
   }
 }
-
-
